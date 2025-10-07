@@ -33,7 +33,7 @@ TextureImporter:
       213: 21300018
     second: HangingPlants1_9
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -50,11 +50,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -93,6 +94,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -104,6 +107,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -116,6 +120,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
@@ -128,6 +133,33 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
@@ -199,7 +231,7 @@ TextureImporter:
       name: HangingPlants1_1
       rect:
         serializedVersion: 2
-        x: 579
+        x: 565
         y: 1249
         width: 487
         height: 784
@@ -672,8 +704,8 @@ TextureImporter:
         y: 8
         width: 1152
         height: 785
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.6205857, y: 0.14607705}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 204.3487, y: -32.4252}
@@ -712,12 +744,12 @@ TextureImporter:
       name: HangingPlants1_7
       rect:
         serializedVersion: 2
-        x: 451
-        y: 404
+        x: 444
+        y: 417
         width: 265
         height: 864
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.475038, y: 0.4846876}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -75.5, y: 432}
@@ -884,7 +916,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: dc344d71e375c2b4595797b9e1919027
     internalID: 0
     vertices: []
     indices: 
@@ -893,16 +925,15 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       HangingPlants1_0: 21300000
-      HangingPlants1_7: 21300014
-      HangingPlants1_4: 21300008
       HangingPlants1_1: 21300002
-      HangingPlants1_6: 21300012
-      HangingPlants1_9: 21300018
-      HangingPlants1_8: 21300016
       HangingPlants1_2: 21300004
-  spritePackingTag: 
+      HangingPlants1_4: 21300008
+      HangingPlants1_6: 21300012
+      HangingPlants1_7: 21300014
+      HangingPlants1_8: 21300016
+      HangingPlants1_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
